@@ -40,7 +40,7 @@
                                                                                                             green
                                                                                                             blue
                                                                                                             alpha))))
-                (sdl2:free-surface ptr)))
+                (sdl2::sdl-free-surface ptr)))
             (export ',wrapper-function-name))))
 
 (define-render-function "Text" "Solid")
